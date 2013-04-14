@@ -7,9 +7,14 @@
 
     $ component install yyolk/random-border-style
 
-## API
+## Example
 
-   
+    var RandomBorderStyle = require("random-border-style");
+    function changeBodyBorder(){
+      document.getElementById("body").style.border = "3px " + RandomBorderStyle() + " red";
+    }
+    changeBodyBorder();
+
 
 ## License
 
