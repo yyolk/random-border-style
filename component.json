@@ -1,0 +1,13 @@
+{
+  "name": "random-border-style",
+  "repo": "yyolk/random-border-style",
+  "description": "Return a random CSS border-style",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
