@@ -1,4 +1,3 @@
-
 # random-border-style
 
   Return a random CSS border-style
@@ -7,14 +6,15 @@
 
     $ component install yyolk/random-border-style
 
-## Example
+## Usage
 
-    var RandomBorderStyle = require("random-border-style");
-    function changeBodyBorder(){
-      document.getElementById("body").style.border = "3px " + RandomBorderStyle() + " red";
-    }
-    changeBodyBorder();
-
+```js
+var RandomBorderStyle = require("random-border-style");
+function changeBodyBorder(){
+  document.getElementById("body").style.border = "3px " + RandomBorderStyle() + " red";
+}
+changeBodyBorder();
+```
 
 ## License
 
